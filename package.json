@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-css",
+  "version": "1.0.4",
+  "description": "A css module compatible version of bootstrap",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenIseki/bootstrap-css.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrapcss",
+    "css",
+    "css-module",
+    "css module",
+    "react",
+    "reactjs",
+    "react-component"
+  ],
+  "license": "MIT"
+}

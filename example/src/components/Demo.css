@@ -1,0 +1,45 @@
+* {
+  color: #fff;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.demo {
+  padding: 20px;
+  width:200px;
+  margin:0 auto;
+}
+
+.button {
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 20px;
+  text-align:center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.blue {
+  background-color: blue;  
+  border: 2px solid blue;
+}
+
+.blue:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+
+.red {
+  background-color: red;  
+  border: 2px solid red;
+}
+
+.red:hover {
+  color: red;
+  border: 2px solid red;
+}
