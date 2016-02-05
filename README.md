@@ -1,6 +1,6 @@
 # [bootstrap-css]()
 
-[![npm version](https://badge.fury.io/js/pure-css.svg)](https://badge.fury.io/js/pure-css)
+[![npm version](https://badge.fury.io/js/bootstrap-css.svg)](https://badge.fury.io/js/bootstrap-css)
 
 A [css module](https://github.com/css-modules/css-modules) compatible version of [bootstrap](https://github.com/twbs/bootstrap).
 pu
