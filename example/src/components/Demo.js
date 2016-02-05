@@ -1,18 +1,19 @@
 import React from 'react'
 import CSSModules from 'react-css-modules'
 import styles from './Demo.css'
-import { normalize } from 'bootstrap-css'
-Object.assign(styles, normalize)
+import { normalize, alerts, jumbotron, buttons } from 'bootstrap-css'
+Object.assign(styles, alerts, normalize, jumbotron, buttons)
 
 function Demo( props) {
 
     const { route } = props
 
     return (
-    	<div styleName='demo'>
-    		<button styleName='button blue'>press me</button>
-    		<button styleName='button red'>press me</button>
-       	</div>
+    	<div styleName='jumbotron'>
+		  <h1>Hello, world!</h1>
+		  <a styleName='btn btn-primary btn-lg'>Learn more</a>
+		  <div styleName='alert alert-info'>...</div>
+		</div>
     )
 }
 

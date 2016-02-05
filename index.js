@@ -2,7 +2,6 @@
 
 var normalize = require('./lib/normalize.css');
 var print = require('./lib/print.css');
-var glyphicons = require('./lib/glyphicons.css');
 var scaffolding = require('./lib/scaffolding.css');
 var type = require('./lib/type.css');
 var code = require('./lib/code.css');
@@ -41,7 +40,6 @@ var responsiveUtilities = require('./lib/responsive-utilities.css');
 module.exports = {
 	normalize: normalize,
 	print: print,
-	glyphicons: glyphicons,
 	scaffolding: scaffolding,
 	type: type,
 	code: code,

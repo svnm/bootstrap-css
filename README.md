@@ -66,9 +66,10 @@ The less modules from bootstrap have each been installed from bootstrap and comp
 
 The following modules are available to be imported and used, just as in the bootstrap docs: [css](http://getbootstrap.com/css/) & [components](http://getbootstrap.com/components/)
 
+Note: glyphicons are currently not implemented, this is a bit tricky to do with css modules. An idea could be to use svg loader to load the fonts, any help on this appreciated, however currently these should be loaded as a seperate glyphicon.css module, most likely global, pointing to your font paths.
+
 - normalize
 - print
-- glyphicons
 - scaffolding
 - type
 - code
