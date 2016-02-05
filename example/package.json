@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-css-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "just an example bootstrap with css modules...",
   "scripts": {
     "start": "node serverDev.js"
