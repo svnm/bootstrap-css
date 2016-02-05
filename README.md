@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/pure-css.svg)](https://badge.fury.io/js/pure-css)
 
 A [css module](https://github.com/css-modules/css-modules) compatible version of [bootstrap](https://github.com/twbs/bootstrap).
-
+pu
 You will need to use [react-css-modules](https://github.com/gajus/react-css-modules) to make use of the class names as bootstrap classes are not camelCase.
 
 It would be possible to make a version compatible to just css modules in the future. 
@@ -19,7 +19,7 @@ It would be possible to make a version compatible to just css modules in the fut
 ## Usage
 Simply import your bootstrap css modules
 
-`import { alerts, buttons, jumbotron } from 'pure-css'`
+`import { alerts, buttons, jumbotron } from 'bootstrap-css'`
 
 Then use it for styling your elements.
 
