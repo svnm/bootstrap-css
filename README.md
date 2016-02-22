@@ -3,7 +3,6 @@
 [![npm version](https://badge.fury.io/js/bootstrap-css.svg)](https://badge.fury.io/js/bootstrap-css)
 
 A [css module](https://github.com/css-modules/css-modules) compatible version of [bootstrap](https://github.com/twbs/bootstrap).
-pu
 You will need to use [react-css-modules](https://github.com/gajus/react-css-modules) to make use of the class names as bootstrap classes are not camelCase.
 
 It would be possible to make a version compatible to just css modules in the future. 
