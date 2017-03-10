@@ -1,16 +1,10 @@
 var gulp = require('gulp');
-var postcss = require('gulp-postcss');
-var less = require('gulp-less');
-var autoprefixer = require('autoprefixer');
-//var cssnano = require('cssnano');
+var sass = require('gulp-sass');
 
 gulp.task('css', function () {
-    var processors = [
-        autoprefixer
-    ];
-    return gulp.src('./src/*.less')
-        .pipe(less())
-        .pipe(postcss(processors))
+    return gulp.src('./src/*.scss')
+        .pipe(sass())
+        .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./lib'));
 });
 
