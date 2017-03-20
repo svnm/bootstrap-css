@@ -1,54 +1,12 @@
 /*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v4.0.0-alpha.6 (http://getbootstrap.com)
+ * Copyright (c) 2011-2017 Twitter, Inc.
+ * Copyright (c) 2011-2017 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/* modified the import to break up the individual css components */
 .media {
-  margin-top: 15px;
-}
-.media:first-child {
-  margin-top: 0;
-}
-.media,
+  display: flex;
+  align-items: flex-start; }
+
 .media-body {
-  zoom: 1;
-  overflow: hidden;
-}
-.media-body {
-  width: 10000px;
-}
-.media-object {
-  display: block;
-}
-.media-object.img-thumbnail {
-  max-width: none;
-}
-.media-right,
-.media > .pull-right {
-  padding-left: 10px;
-}
-.media-left,
-.media > .pull-left {
-  padding-right: 10px;
-}
-.media-left,
-.media-right,
-.media-body {
-  display: table-cell;
-  vertical-align: top;
-}
-.media-middle {
-  vertical-align: middle;
-}
-.media-bottom {
-  vertical-align: bottom;
-}
-.media-heading {
-  margin-top: 0;
-  margin-bottom: 5px;
-}
-.media-list {
-  padding-left: 0;
-  list-style: none;
-}
+  flex: 1; }

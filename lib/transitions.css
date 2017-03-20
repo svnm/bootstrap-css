@@ -1,0 +1,30 @@
+/*!
+ * Bootstrap v4.0.0-alpha.6 (http://getbootstrap.com)
+ * Copyright (c) 2011-2017 Twitter, Inc.
+ * Copyright (c) 2011-2017 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.fade {
+  opacity: 0;
+  transition: opacity 0.15s linear; }
+
+.fade.show {
+  opacity: 1; }
+
+.collapse {
+  display: none; }
+
+.collapse.show {
+  display: block; }
+
+tr.collapse.show {
+  display: table-row; }
+
+tbody.collapse.show {
+  display: table-row-group; }
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease; }

@@ -1,0 +1,75 @@
+/*!
+ * Bootstrap v4.0.0-alpha.6 (http://getbootstrap.com)
+ * Copyright (c) 2011-2017 Twitter, Inc.
+ * Copyright (c) 2011-2017 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.nav {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.nav-link {
+  display: block;
+  padding: 0.5em 1em; }
+
+.nav-link:focus, .nav-link:hover {
+  text-decoration: none; }
+
+.nav-link.disabled {
+  color: #636c72;
+  cursor: not-allowed; }
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd; }
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px; }
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem; }
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #eceeef #eceeef #ddd; }
+
+.nav-tabs .nav-link.disabled {
+  color: #636c72;
+  background-color: transparent;
+  border-color: transparent; }
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #464a4c;
+  background-color: #fff;
+  border-color: #ddd #ddd #fff; }
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem; }
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link {
+  color: #fff;
+  cursor: default;
+  background-color: #0275d8; }
+
+.nav-fill .nav-item {
+  flex: 1 1 auto;
+  text-align: center; }
+
+.nav-justified .nav-item {
+  flex: 1 1 100%;
+  text-align: center; }
+
+.tab-content > .tab-pane {
+  display: none; }
+
+.tab-content > .active {
+  display: block; }

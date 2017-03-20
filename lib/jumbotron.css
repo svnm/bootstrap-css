@@ -1,49 +1,23 @@
 /*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v4.0.0-alpha.6 (http://getbootstrap.com)
+ * Copyright (c) 2011-2017 Twitter, Inc.
+ * Copyright (c) 2011-2017 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/* modified the import to break up the individual css components */
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eeeeee;
-}
-.jumbotron h1,
-.jumbotron .h1 {
-  color: inherit;
-}
-.jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
-.jumbotron > hr {
-  border-top-color: #d5d5d5;
-}
-.container .jumbotron,
-.container-fluid .jumbotron {
-  border-radius: 6px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.jumbotron .container {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #eceeef;
+  border-radius: 0.3rem; }
+
+@media (min-width: 576px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  .container .jumbotron,
-  .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .jumbotron h1,
-  .jumbotron .h1 {
-    font-size: 63px;
-  }
-}
+    padding: 4rem 2rem; } }
+
+.jumbotron-hr {
+  border-top-color: #d0d5d8; }
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0; }

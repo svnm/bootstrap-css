@@ -1,0 +1,70 @@
+/*!
+ * Bootstrap v4.0.0-alpha.6 (http://getbootstrap.com)
+ * Copyright (c) 2011-2017 Twitter, Inc.
+ * Copyright (c) 2011-2017 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem; }
+
+.badge:empty {
+  display: none; }
+
+.btn .badge {
+  position: relative;
+  top: -1px; }
+
+a.badge:focus, a.badge:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer; }
+
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem; }
+
+.badge-default {
+  background-color: #636c72; }
+
+.badge-default[href]:focus, .badge-default[href]:hover {
+  background-color: #4b5257; }
+
+.badge-primary {
+  background-color: #0275d8; }
+
+.badge-primary[href]:focus, .badge-primary[href]:hover {
+  background-color: #025aa5; }
+
+.badge-success {
+  background-color: #5cb85c; }
+
+.badge-success[href]:focus, .badge-success[href]:hover {
+  background-color: #449d44; }
+
+.badge-info {
+  background-color: #5bc0de; }
+
+.badge-info[href]:focus, .badge-info[href]:hover {
+  background-color: #31b0d5; }
+
+.badge-warning {
+  background-color: #f0ad4e; }
+
+.badge-warning[href]:focus, .badge-warning[href]:hover {
+  background-color: #ec971f; }
+
+.badge-danger {
+  background-color: #d9534f; }
+
+.badge-danger[href]:focus, .badge-danger[href]:hover {
+  background-color: #c9302c; }

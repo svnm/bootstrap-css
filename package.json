@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-css",
-  "version": "3.3.7",
+  "version": "4.0.0-alpha.6",
   "description": "A css module compatible version of bootstrap",
   "main": "index.js",
   "repository": {
@@ -11,14 +11,9 @@
     "build": "gulp"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.1",
-    "bootstrap": "3.3.7",
-    "change-case": "^2.3.1",
+    "bootstrap": "^4.0.0-alpha.6",
     "gulp": "^3.9.0",
-    "gulp-less": "^3.0.5",
-    "gulp-postcss": "^6.0.1",
-    "less-plugin-autoprefix": "^1.5.1",
-    "less-plugin-clean-css": "^1.5.1"
+    "gulp-sass": "^3.1.0"
   },
   "keywords": [
     "bootstrap",

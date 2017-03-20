@@ -1,0 +1,32 @@
+/*!
+ * Bootstrap v4.0.0-alpha.6 (http://getbootstrap.com)
+ * Copyright (c) 2011-2017 Twitter, Inc.
+ * Copyright (c) 2011-2017 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0; }
+  to {
+    background-position: 0 0; } }
+
+.progress {
+  display: flex;
+  overflow: hidden;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-align: center;
+  background-color: #eceeef;
+  border-radius: 0.25rem; }
+
+.progress-bar {
+  height: 1rem;
+  color: #fff;
+  background-color: #0275d8; }
+
+.progress-bar-striped {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem; }
+
+.progress-bar-animated {
+  animation: progress-bar-stripes 1s linear infinite; }

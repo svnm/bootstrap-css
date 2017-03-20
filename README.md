@@ -10,11 +10,11 @@ It would be possible to make a version compatible to just css modules in the fut
 ## Version
 Every attempt will be made to keep the versions in sync with bootstrap.
 
-#### `3.3.7` uses latest bootstrap 3 `v3.3.7`
+#### `4.0.0-alpha.6` uses latest bootstrap 4 `4.0.0-alpha.6`
 
 ## Installation
 
-`yarn add bootstrap-css`
+`npm install bootstrap-css@4.0.0-alpha.6 --save-dev`
 
 ## Usage
 Simply import your bootstrap css modules
