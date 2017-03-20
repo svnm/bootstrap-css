@@ -8,6 +8,7 @@ You will need to use [react-css-modules](https://github.com/gajus/react-css-modu
 It would be possible to make a version compatible to just css modules in the future.
 
 ## Version
+Every attempt will be made to keep the versions in sync with bootstrap.
 
 #### `4.0.0-alpha.6` uses latest bootstrap 4 `4.0.0-alpha.6`
 

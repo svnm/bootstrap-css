@@ -6,11 +6,11 @@ function App(props) {
     return (
         <main>
             <Demo />
-        </main>        
+        </main>
     )
 }
 
 
 ReactDOM.render(
-	React.createElement(App), 
+	React.createElement(App),
 	document.getElementById('root'))
