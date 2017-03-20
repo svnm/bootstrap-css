@@ -5,15 +5,16 @@
 A [css module](https://github.com/css-modules/css-modules) compatible version of [bootstrap](https://github.com/twbs/bootstrap).
 You will need to use [react-css-modules](https://github.com/gajus/react-css-modules) to make use of the class names as bootstrap classes are not camelCase.
 
-It would be possible to make a version compatible to just css modules in the future. 
+It would be possible to make a version compatible to just css modules in the future.
 
 ## Version
+Every attempt will be made to keep the versions in sync with bootstrap.
 
-#### `3.0.0` uses latest bootstrap 3 `v3.3.6`
+#### `3.3.7` uses latest bootstrap 3 `v3.3.7`
 
 ## Installation
 
-`npm install bootstrap-css --save-dev`
+`yarn add bootstrap-css`
 
 ## Usage
 Simply import your bootstrap css modules
