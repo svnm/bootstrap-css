@@ -14,7 +14,7 @@ An example of using bootstrap, react, webpack and css modules...
 ## Run
 
 ```
-npm install
+yarn install
 npm start
 open http://127.0.0.1:3000
 ```
