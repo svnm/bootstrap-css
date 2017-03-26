@@ -10,7 +10,13 @@ It would be possible to make a version compatible to just css modules in the fut
 ## Version
 Every attempt will be made to keep the versions in sync with bootstrap.
 
-#### `4.0.0-alpha.5` uses latest bootstrap 4 `4.0.0-alpha.5`
+#### `3.3.7` uses latest bootstrap 3 `v3.3.7`
+
+#### `4.0.0-alpha.5` uses latest bootstrap 4 `4.0.0-alpha.6`
+
+NOTE: Apologies I made a mistake publishing `4.0.0-alpha.6` as there was a bug importing the `images` module in `index.js`. I unpublished the package, not realizing that you can never republish the same version of a module.
+
+So use `4.0.0-alpha.5`... but it actually imports bootstrap `4.0.0-alpha.6`. Remember this is just importing bootstrap. Beta is coming out very soon then we can publish that and forget that I made this mistake... sorry.
 
 ## Installation
 
