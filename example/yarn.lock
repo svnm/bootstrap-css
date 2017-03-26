@@ -884,9 +884,9 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
-bootstrap-css@3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/bootstrap-css/-/bootstrap-css-3.3.7.tgz#f5d436f1e7e5a8890483dcf59d5d5ae450cda25b"
+bootstrap-css@4.0.0-alpha.6:
+  version "4.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/bootstrap-css/-/bootstrap-css-4.0.0-alpha.6.tgz#79c52c3b6bd8e9f96dba3c5a0d77ce1447d7da81"
 
 brace-expansion@^1.0.0:
   version "1.1.6"
