@@ -19,7 +19,7 @@ Every attempt will be made to keep the versions in sync with bootstrap.
 ## Usage
 Simply import your bootstrap css modules
 
-`import { alerts, buttons, jumbotron } from 'bootstrap-css'`
+`import { alert, buttons, jumbotron } from 'bootstrap-css'`
 
 Then use it for styling your elements.
 
@@ -35,26 +35,8 @@ Then use it for styling your elements.
 
 Check out the full working example [here](https://github.com/StevenIseki/bootstrap-css/tree/master/example)
 
-```jsx
-import React from 'react'
-import CSSModules from 'react-css-modules'
-
-import { jumbotron } from 'bootstrap-css'
-let styles = {}
-Object.assign(styles, jumbotron)
-
-class Test extends React.Component {
-    render () {
-        return (
-        <div styleName='jumbotron'>
-        	<h1>Hello, world!</h1>
-        </div>
-        );
-    }
-}
-
-export default CSSModules(Test, styles);
-```
+    cd example
+    npm start
 
 ## Development
     npm install
@@ -62,48 +44,46 @@ export default CSSModules(Test, styles);
 
 ## Bootstrap modules
 
-The less modules from bootstrap have each been installed from bootstrap and compiled to plain css versions, so will need no preprocessing or autoprefixing.
+The sass modules from bootstrap have each been installed from bootstrap and compiled to plain css versions, so will need no preprocessing or autoprefixing.
 
 The following modules are available to be imported and used, just as in the bootstrap docs: [css](http://getbootstrap.com/css/) & [components](http://getbootstrap.com/components/)
 
 Note: glyphicons are currently not implemented, this is a bit tricky to do with css modules. An idea could be to use svg loader to load the fonts, any help on this appreciated, however currently these should be loaded as a seperate glyphicon.css module, most likely global, pointing to your font paths.
 
-- normalize
-- print
-- scaffolding
-- type
-- code
-- grid
-- tables
-- forms
+- alert
+- badge
+- breadcrumb
+- buttonGroup
 - buttons
-- componentAnimations
-- dropdowns
-- buttonGroups
-- inputGroups
-- navs
-- navbar
-- breadcrumbs
-- pagination
-- pager
-- labels
-- badges
-- jumbotron
-- thumbnails
-- alerts
-- progressBars
-- media
-- listGroup
-- panels
-- responsiveEmbed
-- wells
-- close
-- modals
-- tooltip
-- popovers
+- card
 - carousel
+- close
+- code
+- customForms
+- custom
+- dropdown
+- forms
+- grid
+- images
+- inputGroup
+- jumbotron
+- listGroup
+- media
+- modal
+- nav
+- navbar
+- normalize
+- pagination
+- popover
+- print
+- progress
+- reboot
+- responsiveEmbed
+- tables
+- tooltip
+- transitions
+- type
 - utilities
-- responsiveUtilities
 
 ## License
 

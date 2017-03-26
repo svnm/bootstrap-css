@@ -1,8 +1,9 @@
 import React from 'react'
 import CSSModules from 'react-css-modules'
 import styles from './Demo.css'
-import { normalize, alerts, jumbotron, buttons } from 'bootstrap-css'
-Object.assign(styles, alerts, normalize, jumbotron, buttons)
+import { normalize, alert, jumbotron, buttons } from 'bootstrap-css'
+//import { normalize, alert, jumbotron, buttons } from './test.js'
+Object.assign(styles, alert, normalize, jumbotron, buttons)
 
 function Demo( props) {
 
