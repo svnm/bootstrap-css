@@ -6,7 +6,7 @@ gulp.task('css', function () {
     return gulp.src('./src/*.scss')
         .pipe(sass())
         .pipe(sass().on('error', sass.logError))
-        .pipe(cleanCSS())
+        .pipe(cleanCSS({level: {1: {specialComments: 0}}}))
         .pipe(gulp.dest('./lib'));
 });
 
