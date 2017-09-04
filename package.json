@@ -27,5 +27,8 @@
     "reactjs",
     "react-component"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp-clean-css": "^3.0.4"
+  }
 }
